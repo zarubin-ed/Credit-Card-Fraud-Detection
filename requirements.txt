@@ -1,14 +1,18 @@
-numpy (>=1.16.0)
-pandas (>=0.24)
-matplotlib
+# Core
+numpy>=1.24
+pandas>=1.5
+joblib>=1.2
 
-ipywidgets
-graphviz
-matplotlib
-plotly
-scipy
-six
-
-scikit-learn
-catboost
-xgboost
+# Modeling (scikit-learn and xgboost are also required at inference time
+# by src/predict.py, to unpickle and run the saved pipeline)
+scikit-learn>=1.2
+catboost>=1.2
+xgboost>=1.7
+ 
+# Visualization (EDA notebook)
+matplotlib>=3.7
+plotly>=5.15
+ 
+# Data source (EDA notebook)
+kagglehub>=0.3
+ 
