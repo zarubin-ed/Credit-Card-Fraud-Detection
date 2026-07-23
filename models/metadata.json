@@ -1,0 +1,14 @@
+{
+  "model": "XGBClassifier",
+  "hyperparameters": {
+    "learning_rate": 0.3,
+    "max_depth": 4,
+    "reg_lambda": 1,
+    "scale_pos_weight": 1190.0839160839162
+  },
+  "threshold": 0.014296125620603561,
+  "val_metrics": {
+    "pr_auc": 0.8430694537629261,
+    "recall_at_precision": 0.8282828282828283
+  }
+}
