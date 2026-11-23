@@ -1,7 +1,5 @@
 # Credit Card Fraud Detection
 
-[English](README.md) | [Русский](README.ru.md)
-
 Binary classification of fraudulent credit card transactions under severe class imbalance (~0.17% fraud).
  
 ## Problem
